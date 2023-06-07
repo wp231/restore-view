@@ -14,7 +14,7 @@ Copy `plugin/restore-view.vim` to `~/.vim/plugin`.
 ==============================================================================
 2. Options                                               *restoreview-options*
 
-                                                                 *g:AutoPairs*
+                                                            *g:skipview_files*
 |g:skipview_files|                                                        list
 
 
