@@ -1,0 +1,23 @@
+*RestoreView.txt*  Maintain the previous cursor position and folding.
+
+==============================================================================
+CONTENTS                                                *restoreview-contents*
+
+    1. Installation ........................... |restoreview-installation|
+    2. Options ..................................... |restoreview-options|
+
+==============================================================================
+1. Introduction                                     *restoreview-installation*
+
+Copy `plugin/restore-view.vim` to `~/.vim/plugin`.
+
+==============================================================================
+2. Options                                               *restoreview-options*
+
+                                                                 *g:AutoPairs*
+|g:skipview_files|                                                        list
+
+
+Default: []
+
+Ignore the file name when saving the view.
