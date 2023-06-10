@@ -29,6 +29,6 @@ endfunction
 augroup AutoView
     autocmd!
     " Autosave & Load Views.
-    autocmd BufWritePre,BufWinLeave,BufLeave ?* if MakeViewCheck() | silent! mkview | endif
+    autocmd BufWritePre,BufWinLeave ?* if MakeViewCheck() | silent! mkview | endif
     autocmd BufWinEnter ?* if MakeViewCheck() | silent! loadview | endif
 augroup END
